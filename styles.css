@@ -25,21 +25,21 @@ table, th, td {
 }
 
 td {
-  width: 90px;
+  width: 80px;
 }
 
 table {
   margin: 6rem auto;
-  width: 360px;
+  width: 320px;
 }
 
 .cdown {
-  font-size: 4.5rem;
+  font-size: 3.6rem;
   margin: auto;
 }
 
 .cdown-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: auto;
 }
 
@@ -66,21 +66,21 @@ table {
   }
 
   td {
-    width: 90px;
+    width: 80px;
   }
 
   table {
     margin: 6rem auto;
-    width: 360px;
+    width: 320px;
   }
 
   .cdown {
-    font-size: 4.5rem;
+    font-size: 3.6rem;
     margin: auto;
   }
 
   .cdown-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: auto;
   }
 
