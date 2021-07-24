@@ -1,5 +1,5 @@
 // the date we're counting down to
-var myBirthday = new Date("07/16/2021").getTime();
+var myBirthday = new Date("07/16/2022").getTime();
 
 // update countdown every second
 var x = setInterval(function() {
