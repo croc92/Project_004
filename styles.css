@@ -6,6 +6,7 @@
 
 body {
   background-image: url("dota-pic.jpg");
+  background-color: #222;
   background-position: center;
   background-size: contain;
   height: 100vh;
@@ -20,7 +21,9 @@ h1 {
   text-align: center;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid white;
   text-align: center;
 }
@@ -30,8 +33,14 @@ td {
 }
 
 table {
-  margin: 6rem auto;
+  margin: 3rem auto;
   width: 320px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cdown {
@@ -44,7 +53,11 @@ table {
   margin: auto;
 }
 
-@media only screen and (max-width: 1024px){
+#bd-message {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
 
   body {
     background-image: url("dota-pic.jpg");
@@ -59,9 +72,12 @@ table {
     margin: 2rem auto;
     width: 80%;
     font-size: 3rem;
+    text-align: center;
   }
 
-  table, th, td {
+  table,
+  th,
+  td {
     border: 1px solid white;
     text-align: center;
   }
@@ -71,7 +87,7 @@ table {
   }
 
   table {
-    margin: 6rem auto;
+    margin: 3rem auto;
     width: 320px;
   }
 
