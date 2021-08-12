@@ -5,9 +5,9 @@
 // 11-Aug-2021  now.getDate() =>> 11, now.getDay() =>> 3 (3rd day of the week)
 
 // the date we're counting down to
-const bDay = 11;
-const bMonth = 8;
-const bYear = 1998;
+const bDay = 16;
+const bMonth = 7;
+const bYear = 1992;
 const now = new Date();
 const thisYear = new Date().getFullYear();
 const comingYear = new Date().getFullYear() + 1;
